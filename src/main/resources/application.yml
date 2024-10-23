@@ -1,0 +1,9 @@
+spring:
+    application:
+        name: Spring-Kotlin-Redis-PubSub
+app:
+    redis:
+        HOST: ${REDIS_HOST:localhost}
+        PORT: ${REDIS_PORT:6379}
+        PASSWORD: ${REDIS_PASSWORD:secret}
+        CHANNEL: default-channel
